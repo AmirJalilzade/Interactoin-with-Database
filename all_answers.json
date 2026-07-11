@@ -1,0 +1,218 @@
+{
+    "سوالات مربوط به کالاها": [
+        {
+            "question": "پرفروش‌ترین کالاها در بورس کالا کدامند؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "تعداد کالاهای منحصربه‌فرد معامله‌شده چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "کدام کالا بیشترین تعداد معاملات را داشته است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "لیست تمام کالاهایی که نام آن‌ها شامل کلمه «سیمان» است را نشان بده.",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "۱۰ کالای برتر بر اساس تعداد معاملات کدامند؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "تعداد معاملات «شمش بلوم» چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "کالاهایی که کمتر از ۱۰۰ معامله داشته‌اند را لیست کن.",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        }
+    ],
+    "سوالات مربوط به تولیدکنندگان": [
+        {
+            "question": "کدام تولیدکننده بیشترین تعداد معاملات را داشته است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "تعداد تولیدکنندگان فعال در بورس کالا چند نفر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "لیست تمام تولیدکنندگان سیمان را نشان بده.",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "سهم «ملی صنایع مس ایران» از کل معاملات چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "۵ تولیدکننده برتر بر اساس حجم معاملات کدامند؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "کدام تولیدکنندگان در پتروشیمی فعال هستند؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "تعداد معاملات «ذوب آهن اصفهان» چقدر است.",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        }
+    ],
+    "سوالات مربوط به نمادها": [
+        {
+            "question": "تعداد نمادهای منحصربه‌فرد در بورس کالا چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "نمادهایی که بیش از ۵۰۰ معامله داشته‌اند را لیست کن.",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "کدام نماد بیشترین تعداد معاملات را دارد؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "الگوی نمادهای «ملی صنایع مس ایران» چیست؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        }
+    ],
+    "سوالات مربوط به نوع قرارداد": [
+        {
+            "question": "تعداد معاملات نقدی چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "مقایسه تعداد معاملات نقدی، سلف و نسیه را نشان بده.",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "درصد معاملات سلف از کل معاملات چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "کدام نوع قرارداد بیشترین استفاده را داشته است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "تعداد معاملات «نقدی (مچینگ)» چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        }
+    ],
+    "سوالات ترکیبی و تحلیلی": [
+        {
+            "question": "هر تولیدکننده چه کالاهایی را معامله کرده است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "توزیع نوع قراردادها برای کالای «سیمان پرتلند» چگونه است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "کدام تولیدکننده بیشترین تنوع کالا را دارد؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "لیست کالاها به همراه تولیدکننده و نوع قرارداد نشان بده.",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "میانگین تعداد معاملات به ازای هر تولیدکننده چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "کدام کالاها فقط با قرارداد نقدی معامله شده‌اند؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "تعداد معاملات هر نوع قرارداد به تفکیک تولیدکننده چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        }
+    ],
+    "سوالات آماری": [
+        {
+            "question": "تعداد کل رکوردهای جدول چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "آیا رکوردی با مقدار NULL در ستون‌های اصلی وجود دارد؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "میانگین تعداد معاملات به ازای هر کالا چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        },
+        {
+            "question": "حداقل و حداکثر تعداد معاملات برای یک کالا چقدر است؟",
+            "generated_sql": "N/A",
+            "execution_error": "HTTPConnectionPool(host='127.0.0.1', port=8009): Max retries exceeded with url: /v1/embeddings (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8009): Failed to establish a new connection: [Errno 61] Connection refused\"))",
+            "bi_analysis_report": "N/A"
+        }
+    ]
+}

@@ -1,0 +1,1216 @@
+[
+  {
+    "table": "GoodsExchange",
+    "column": "Id",
+    "type": "BIGINT",
+    "nullable": false,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "mean": 54213,
+      "min": 1,
+      "max": 108425,
+      "null_percentage": 0.0,
+      "median": 54213.0
+    },
+    "description": "شناسه یکتا برای هر معامله در جدول",
+    "data_quality": "108425 مقدار یکتا، هیچ مقدار خالی وجود ندارد"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "GoodsName",
+    "type": "NVARCHAR(100) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 893,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0082
+    },
+    "top_values": [
+      {
+        "value": "سیمان پرتلند نوع 2 رده 42/5-فله",
+        "count": 4646
+      },
+      {
+        "value": "سیمان پرتلند نوع 2 رده 42/5-کیسه50",
+        "count": 3867
+      },
+      {
+        "value": "شمش بلوم (150*150)5SP",
+        "count": 3371
+      },
+      {
+        "value": "میلگرد 14تا20-A3",
+        "count": 2582
+      },
+      {
+        "value": "سیمان تیپ2",
+        "count": 2330
+      },
+      {
+        "value": "سیمان پرتلند نوع 2 رده 32/5-کیسه50",
+        "count": 2243
+      },
+      {
+        "value": "سیمان تیپ 2/کیسه50",
+        "count": 2151
+      },
+      {
+        "value": "سیمان پرتلند نوع 2 رده 32/5-فله",
+        "count": 2111
+      },
+      {
+        "value": "آهن اسفنجی",
+        "count": 1933
+      },
+      {
+        "value": "سولفور مولیبدن",
+        "count": 1909
+      }
+    ],
+    "description": "نام کالای مبادله شده",
+    "data_quality": "893 مقدار یکتا، نسبت کاردینالی 0.0082، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Symbol",
+    "type": "NVARCHAR(100) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 2899,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0267
+    },
+    "top_values": [
+      {
+        "value": "NCI-OANMMSA-00",
+        "count": 699
+      },
+      {
+        "value": "NCI-OANMMSB-00",
+        "count": 553
+      },
+      {
+        "value": "NCI-OANMMSF-00",
+        "count": 520
+      },
+      {
+        "value": "NCI-OANMGODSD-00",
+        "count": 343
+      },
+      {
+        "value": "IMID-OAIOMFV-617",
+        "count": 278
+      },
+      {
+        "value": "BSC-DRI-00",
+        "count": 240
+      },
+      {
+        "value": "ALCO-ARCK45B-00",
+        "count": 232
+      },
+      {
+        "value": "GISD-DRI-00",
+        "count": 225
+      },
+      {
+        "value": "SKS-BSG194X-00",
+        "count": 224
+      },
+      {
+        "value": "CWD-CR08AB-00",
+        "count": 222
+      }
+    ],
+    "description": "نماد معاملاتی کالا",
+    "data_quality": "2899 مقدار یکتا، نسبت کاردینالی 0.0267، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "ProducerName",
+    "type": "NVARCHAR(200) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 563,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0052
+    },
+    "top_values": [
+      {
+        "value": "ملی صنایع مس ایران",
+        "count": 2705
+      },
+      {
+        "value": "ذوب آهن اصفهان",
+        "count": 1975
+      },
+      {
+        "value": "پتروشیمی شازند",
+        "count": 1640
+      },
+      {
+        "value": "سیمان ساوه",
+        "count": 1382
+      },
+      {
+        "value": "پتروشیمی مارون",
+        "count": 1296
+      },
+      {
+        "value": "پتروشیمی تندگویان",
+        "count": 1198
+      },
+      {
+        "value": "صنایع فولاد آلیاژی پاسارگاد (مجتمع صنعتی ذوب آهن پاسارگاد)",
+        "count": 1135
+      },
+      {
+        "value": "سیمان کردستان",
+        "count": 1133
+      },
+      {
+        "value": "پلی پروپیلن جم (پتروشیمی جم پیلن)",
+        "count": 1110
+      },
+      {
+        "value": "فولاد آلیاژی ایران",
+        "count": 1043
+      }
+    ],
+    "description": "نام تولیدکننده کالا",
+    "data_quality": "563 مقدار یکتا، نسبت کاردینالی 0.0052، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "ContractType",
+    "type": "NVARCHAR(50) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 6,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0001
+    },
+    "top_values": [
+      {
+        "value": "نقدی",
+        "count": 63327
+      },
+      {
+        "value": "سلف",
+        "count": 21169
+      },
+      {
+        "value": "نقدی (مچینگ)",
+        "count": 17664
+      },
+      {
+        "value": "سلف (مچینگ)",
+        "count": 3538
+      },
+      {
+        "value": "نسیه",
+        "count": 2296
+      },
+      {
+        "value": "نسیه (مچینگ)",
+        "count": 431
+      }
+    ],
+    "description": "نوع قرارداد معامله",
+    "data_quality": "6 مقدار یکتا، نسبت کاردینالی بسیار کم، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "MinPrice",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 83556,
+      "mean": 37784159.25081383,
+      "min": 3000.0,
+      "max": 68910000000.0,
+      "null_percentage": 22.94,
+      "median": 206289.5
+    },
+    "description": "حداقل قیمت معامله",
+    "data_quality": "22.94٪ مقدار خالی، میانگین 37.8 میلیون، محدوده 3,000 تا 68.9 میلیارد"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Price",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 83556,
+      "mean": 37787493.801414624,
+      "min": 3000.0,
+      "max": 68915250000.0,
+      "null_percentage": 22.94,
+      "median": 206647.5
+    },
+    "description": "قیمت فعلی معامله",
+    "data_quality": "22.94٪ مقدار خالی، میانگین 37.8 میلیون، محدوده 3,000 تا 68.9 میلیارد"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "MaxPrice",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 83556,
+      "mean": 37797765.09850878,
+      "min": 3000.0,
+      "max": 68925000000.0,
+      "null_percentage": 22.94,
+      "median": 206916.5
+    },
+    "description": "حداکثر قیمت معامله",
+    "data_quality": "22.94٪ مقدار خالی، میانگین 37.8 میلیون، محدوده 3,000 تا 68.9 میلیارد"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "arze",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "mean": 4701.837373769878,
+      "min": 0.0,
+      "max": 1000000.0,
+      "null_percentage": 0.0,
+      "median": 484.0
+    },
+    "description": "مقدار ارزشی مرتبط با معامله",
+    "data_quality": "108425 مقدار غیر خالی، میانگین 4,702، محدوده 0 تا 1,000,000"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "ArzeBasePrice",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "mean": 31011062.830583353,
+      "min": 2239.0,
+      "max": 69500000000.0,
+      "null_percentage": 0.0,
+      "median": 245000.0
+    },
+    "description": "قیمت پایه ارزشی معامله",
+    "data_quality": "108425 مقدار غیر خالی، میانگین 31.0 میلیون، محدوده 2,239 تا 69.5 میلیارد"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "arzeMinPrice",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "null_percentage": 0.0,
+      "median": 0.0
+    },
+    "description": "حداقل مقدار ارزشی معامله",
+    "data_quality": "تمامی مقادیر صفر، بدون تغییر"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "taghaza",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "mean": 2901.1726301129793,
+      "min": 0.0,
+      "max": 700000.0,
+      "null_percentage": 0.0,
+      "median": 325.0
+    },
+    "description": "مقدار تخفیف یا هزینه مرتبط",
+    "data_quality": "108425 مقدار غیر خالی، میانگین 2,901، محدوده 0 تا 700,000"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "taghazavoroudi",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "null_percentage": 0.0,
+      "median": 0.0
+    },
+    "description": "مقدار تخفیف یا هزینه ویژه",
+    "data_quality": "تمامی مقادیر صفر، بدون تغییر"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "taghazaMaxPrice",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "mean": 29402785.19729767,
+      "min": 0.0,
+      "max": 68925000000.0,
+      "null_percentage": 0.0,
+      "median": 23808.0
+    },
+    "description": "حداکثر قیمت تخفیف‌دار",
+    "data_quality": "108425 مقدار غیر خالی، میانگین 29.4 میلیون، محدوده 0 تا 68.9 میلیارد"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Quantity",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "mean": 2107.2913769979245,
+      "min": 0.0,
+      "max": 700000.0,
+      "null_percentage": 0.0,
+      "median": 220.0
+    },
+    "description": "مقدار معامله شده",
+    "data_quality": "108425 مقدار غیر خالی، میانگین 2,107، محدوده 0 تا 700,000"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "TotalPrice",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "mean": 280600676.3648418,
+      "min": 0.0,
+      "max": 107771191660.0,
+      "null_percentage": 0.0,
+      "median": 26704680.0
+    },
+    "description": "قیمت کل معامله",
+    "data_quality": "108425 مقدار غیر خالی، میانگین 280.6 میلیون، محدوده 0 تا 107.8 میلیارد"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "date",
+    "type": "NVARCHAR(10) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 389,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0036
+    },
+    "top_values": [
+      {
+        "value": "1404/06/01",
+        "count": 525
+      },
+      {
+        "value": "1403/02/16",
+        "count": 510
+      },
+      {
+        "value": "1403/03/12",
+        "count": 506
+      },
+      {
+        "value": "1403/11/28",
+        "count": 498
+      },
+      {
+        "value": "1403/11/23",
+        "count": 497
+      },
+      {
+        "value": "1404/06/30",
+        "count": 495
+      },
+      {
+        "value": "1404/02/28",
+        "count": 494
+      },
+      {
+        "value": "1404/05/26",
+        "count": 494
+      },
+      {
+        "value": "1404/04/22",
+        "count": 487
+      },
+      {
+        "value": "1403/04/23",
+        "count": 479
+      }
+    ],
+    "description": "تاریخ معامله",
+    "data_quality": "389 مقدار یکتا، نسبت کاردینالی 0.0036، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "DeliveryDate",
+    "type": "NVARCHAR(10) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108423,
+      "unique_count": 645,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0059
+    },
+    "top_values": [
+      {
+        "value": "1404/06/05",
+        "count": 566
+      },
+      {
+        "value": "1404/07/02",
+        "count": 564
+      },
+      {
+        "value": "1404/07/16",
+        "count": 552
+      },
+      {
+        "value": "1404/07/09",
+        "count": 548
+      },
+      {
+        "value": "1404/02/31",
+        "count": 542
+      },
+      {
+        "value": "1404/05/29",
+        "count": 539
+      },
+      {
+        "value": "1404/04/25",
+        "count": 529
+      },
+      {
+        "value": "1404/07/30",
+        "count": 526
+      },
+      {
+        "value": "1404/05/15",
+        "count": 513
+      },
+      {
+        "value": "1403/02/05",
+        "count": 512
+      }
+    ],
+    "description": "تاریخ تحویل کالا",
+    "data_quality": "645 مقدار یکتا، 2 مقدار خالی، تقریباً هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Warehouse",
+    "type": "NVARCHAR(100) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 21,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0002
+    },
+    "top_values": [
+      {
+        "value": "انبار کارخانه",
+        "count": 105709
+      },
+      {
+        "value": "تهران",
+        "count": 669
+      },
+      {
+        "value": "شاد آباد",
+        "count": 628
+      },
+      {
+        "value": "سنگان",
+        "count": 461
+      },
+      {
+        "value": "انبار عرضه کننده",
+        "count": 312
+      },
+      {
+        "value": "قائنات",
+        "count": 154
+      },
+      {
+        "value": "میشدوان",
+        "count": 122
+      },
+      {
+        "value": "میانه",
+        "count": 115
+      },
+      {
+        "value": "قم",
+        "count": 91
+      },
+      {
+        "value": "جلال آباد",
+        "count": 45
+      }
+    ],
+    "description": "مکان انبار کالا",
+    "data_quality": "21 مقدار یکتا، نسبت کاردینالی بسیار کم، بیشترین مقدار در \"انبار کارخانه\""
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "ArzehKonandeh",
+    "type": "NVARCHAR(100) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 579,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0053
+    },
+    "top_values": [
+      {
+        "value": "ملی صنایع مس ایران",
+        "count": 2705
+      },
+      {
+        "value": "ذوب آهن اصفهان",
+        "count": 1975
+      },
+      {
+        "value": "پتروشیمی شازند",
+        "count": 1736
+      },
+      {
+        "value": "سیمان ساوه",
+        "count": 1382
+      },
+      {
+        "value": "پتروشیمی مارون",
+        "count": 1296
+      },
+      {
+        "value": "پتروشیمی شهید تندگویان",
+        "count": 1198
+      },
+      {
+        "value": "صنایع فولاد آلیاژی پاسارگاد",
+        "count": 1135
+      },
+      {
+        "value": "سیمان کردستان",
+        "count": 1133
+      },
+      {
+        "value": "پتروشیمی  جم پیلن",
+        "count": 1110
+      },
+      {
+        "value": "پتروشیمی بندر امام",
+        "count": 1043
+      }
+    ],
+    "description": "نام تولیدکننده ارزشی",
+    "data_quality": "579 مقدار یکتا، نسبت کاردینالی 0.0053، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "SettlementDate",
+    "type": "NVARCHAR(20) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 2727,
+      "unique_count": 516,
+      "null_percentage": 97.48,
+      "cardinality_ratio": 0.1892
+    },
+    "top_values": [
+      {
+        "value": "2025/11/25",
+        "count": 25
+      },
+      {
+        "value": "2024/10/21",
+        "count": 23
+      },
+      {
+        "value": "2025/08/21",
+        "count": 21
+      },
+      {
+        "value": "2025/08/07",
+        "count": 21
+      },
+      {
+        "value": "2024/07/01",
+        "count": 20
+      },
+      {
+        "value": "2024/10/14",
+        "count": 20
+      },
+      {
+        "value": "2024/12/30",
+        "count": 20
+      },
+      {
+        "value": "2025/03/17",
+        "count": 20
+      },
+      {
+        "value": "2025/08/28",
+        "count": 20
+      },
+      {
+        "value": "2024/09/09",
+        "count": 19
+      }
+    ],
+    "description": "تاریخ تسویه حساب",
+    "data_quality": "97.48٪ مقدار خالی، تنها 2,727 مقدار غیر خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Category",
+    "type": "NVARCHAR(50) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 147,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0014
+    },
+    "top_values": [
+      {
+        "value": "1-41-170",
+        "count": 37585
+      },
+      {
+        "value": "1-1-1",
+        "count": 8633
+      },
+      {
+        "value": "1-1-6",
+        "count": 4433
+      },
+      {
+        "value": "3-33-245",
+        "count": 2203
+      },
+      {
+        "value": "1-1-7",
+        "count": 2070
+      },
+      {
+        "value": "1-97-452",
+        "count": 1933
+      },
+      {
+        "value": "1-6-23",
+        "count": 1909
+      },
+      {
+        "value": "1-1-99",
+        "count": 1858
+      },
+      {
+        "value": "1-49-477",
+        "count": 1782
+      },
+      {
+        "value": "1-3-14",
+        "count": 1554
+      }
+    ],
+    "description": "کد دسته‌بندی کالا",
+    "data_quality": "147 مقدار یکتا، نسبت کاردینالی 0.0014، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "xTalarReportPK",
+    "type": "INTEGER",
+    "nullable": true,
+    "stats": {},
+    "description": "کلید خارجی گزارش تالار",
+    "data_quality": "اطلاعات آماری موجود نیست"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "bArzehRadifTarSarresid",
+    "type": "NVARCHAR(50) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 85707,
+      "unique_count": 710,
+      "null_percentage": 20.95,
+      "cardinality_ratio": 0.0083
+    },
+    "top_values": [
+      {
+        "value": "2025/02/11",
+        "count": 447
+      },
+      {
+        "value": "2025/02/16",
+        "count": 435
+      },
+      {
+        "value": "2024/05/05",
+        "count": 420
+      },
+      {
+        "value": "2024/06/01",
+        "count": 414
+      },
+      {
+        "value": "2024/08/11",
+        "count": 412
+      },
+      {
+        "value": "2024/07/13",
+        "count": 407
+      },
+      {
+        "value": "2025/08/23",
+        "count": 404
+      },
+      {
+        "value": "2024/05/26",
+        "count": 398
+      },
+      {
+        "value": "2025/09/09",
+        "count": 391
+      },
+      {
+        "value": "2024/07/29",
+        "count": 388
+      }
+    ],
+    "description": "تاریخ ردیف سررسید ارز",
+    "data_quality": "20.95٪ مقدار خالی، 710 مقدار یکتا"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "cBrokerSpcName",
+    "type": "NVARCHAR(100) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 95,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0009
+    },
+    "top_values": [
+      {
+        "value": "صبا تأمین",
+        "count": 16393
+      },
+      {
+        "value": "آرمون بورس",
+        "count": 8088
+      },
+      {
+        "value": "بانک ملی",
+        "count": 5925
+      },
+      {
+        "value": "بورس بهگزین",
+        "count": 4046
+      },
+      {
+        "value": "سی ولکس",
+        "count": 3951
+      },
+      {
+        "value": "بانک سپه",
+        "count": 3120
+      },
+      {
+        "value": "بانک ملت",
+        "count": 2649
+      },
+      {
+        "value": "خلیج فارس",
+        "count": 2617
+      },
+      {
+        "value": "فارابی",
+        "count": 2494
+      },
+      {
+        "value": "بانک صنعت و معدن",
+        "count": 2395
+      }
+    ],
+    "description": "نام کارگزار خاص",
+    "data_quality": "95 مقدار یکتا، نسبت کاردینالی 0.0009، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "ModeDescription",
+    "type": "NVARCHAR(50) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 1,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0
+    },
+    "top_values": [
+      {
+        "value": "عمده",
+        "count": 108425
+      }
+    ],
+    "description": "نوع معامله عمده",
+    "data_quality": "یک مقدار یکتا، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "MethodDescription",
+    "type": "NVARCHAR(50) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 2,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0
+    },
+    "top_values": [
+      {
+        "value": "عادی",
+        "count": 108280
+      },
+      {
+        "value": "معامله نهایی پریمیوم ",
+        "count": 145
+      }
+    ],
+    "description": "روش معامله",
+    "data_quality": "دو مقدار یکتا، 99.87٪ مقدار \"عادی\""
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "MinPrice1",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 83556,
+      "mean": 37784159.25081383,
+      "min": 3000.0,
+      "max": 68910000000.0,
+      "null_percentage": 22.94,
+      "median": 206289.5
+    },
+    "description": "حداقل قیمت (کپی)",
+    "data_quality": "22.94٪ مقدار خالی، میانگین 37.8 میلیون، محدوده 3,000 تا 68.9 میلیارد"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Price1",
+    "type": "FLOAT",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 83556,
+      "mean": 37787493.801414624,
+      "min": 3000.0,
+      "max": 68915250000.0,
+      "null_percentage": 22.94,
+      "median": 206647.5
+    },
+    "description": "قیمت (کپی)",
+    "data_quality": "22.94٪ مقدار خالی، میانگین 37.8 میلیون، محدوده 3,000 تا 68.9 میلیارد"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Currency",
+    "type": "NVARCHAR(10) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 1,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0
+    },
+    "top_values": [
+      {
+        "value": "ریال",
+        "count": 108425
+      }
+    ],
+    "description": "واحد پول معامله",
+    "data_quality": "یک مقدار یکتا، هیچ مقدار خالی"
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Unit",
+    "type": "NVARCHAR(10) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 2,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0
+    },
+    "top_values": [
+      {
+        "value": "تن",
+        "count": 108325
+      },
+      {
+        "value": "عدد",
+        "count": 100
+      }
+    ],
+    "description": "واحد اندازه‌گیری کالا در مبادله",
+    "data_quality": "دو مقدار ممکن، ۹۹.۹٪ 'تن' و ۰.۱٪ 'عدد'؛ توزیع بسیار نامتقارن."
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "arzehPk",
+    "type": "NVARCHAR(20) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 86792,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.8005
+    },
+    "top_values": [
+      {
+        "value": "879671",
+        "count": 6
+      },
+      {
+        "value": "1019133",
+        "count": 6
+      },
+      {
+        "value": "971875",
+        "count": 6
+      },
+      {
+        "value": "1093610",
+        "count": 6
+      },
+      {
+        "value": "863433",
+        "count": 6
+      },
+      {
+        "value": "896138",
+        "count": 6
+      },
+      {
+        "value": "868480",
+        "count": 6
+      },
+      {
+        "value": "1104130",
+        "count": 6
+      },
+      {
+        "value": "864456",
+        "count": 6
+      },
+      {
+        "value": "814792",
+        "count": 6
+      }
+    ],
+    "description": "کلید اصلی شناسایی مبادله کالا",
+    "data_quality": "۸۶٬۷۹۲ مقدار یکتا از ۱۰۸٬۴۲۵ ردیف؛ نسبت یکتایی ۸۰٪، داده‌های یکتا بالا."
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Talar",
+    "type": "NVARCHAR(100) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "unique_count": 8,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0001
+    },
+    "top_values": [
+      {
+        "value": "تالار صنعتی ",
+        "count": 34742
+      },
+      {
+        "value": "تالار سیمان",
+        "count": 23439
+      },
+      {
+        "value": "تالار پتروشیمی",
+        "count": 22445
+      },
+      {
+        "value": "تالار حراج همزمان",
+        "count": 14392
+      },
+      {
+        "value": "تالار حراج باز",
+        "count": 8121
+      },
+      {
+        "value": "تالار فرآورده های نفتی",
+        "count": 5136
+      },
+      {
+        "value": "تالار خودرو",
+        "count": 100
+      },
+      {
+        "value": "تالار کشاورزی",
+        "count": 50
+      }
+    ],
+    "description": "نوع تالار یا بازار مبادله کالا",
+    "data_quality": "هشت مقدار یکتا، پنج مقدار برتر ۹۰٪ ردیف را پوشش می‌دهند؛ سایر مقادیر نادر."
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "PacketName",
+    "type": "NVARCHAR(50) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108423,
+      "unique_count": 14,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0001
+    },
+    "top_values": [
+      {
+        "value": "فله",
+        "count": 33712
+      },
+      {
+        "value": "کیسه",
+        "count": 21051
+      },
+      {
+        "value": "شاخه",
+        "count": 12872
+      },
+      {
+        "value": "شمش",
+        "count": 10063
+      },
+      {
+        "value": "جامبوبگ",
+        "count": 9131
+      },
+      {
+        "value": "پالت پلاستیکی",
+        "count": 7354
+      },
+      {
+        "value": "سایر",
+        "count": 6059
+      },
+      {
+        "value": "بشکه",
+        "count": 3152
+      },
+      {
+        "value": "پالت چوبی",
+        "count": 2202
+      },
+      {
+        "value": "رول",
+        "count": 1387
+      }
+    ],
+    "description": "نوع بسته‌بندی کالا در مبادله",
+    "data_quality": "۱۴ مقدار یکتا، ۲ ردیف خالی؛ توزیع نامتقارن با بیشترین مقدار 'فله'."
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "Tasvieh",
+    "type": "NVARCHAR(50) COLLATE \"Persian_100_CI_AS\"",
+    "nullable": true,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108423,
+      "unique_count": 3,
+      "null_percentage": 0.0,
+      "cardinality_ratio": 0.0
+    },
+    "top_values": [
+      {
+        "value": "نقدی",
+        "count": 76184
+      },
+      {
+        "value": "نقدی / اعتباری",
+        "count": 31020
+      },
+      {
+        "value": "اعتباری",
+        "count": 1219
+      }
+    ],
+    "description": "روش پرداخت در مبادله کالا",
+    "data_quality": "۳ مقدار یکتا، ۷۶٪ نقدی، ۲۹٪ نقدی/اعتباری، ۱.۱٪ اعتباری؛ توزیع نامتقارن."
+  },
+  {
+    "table": "GoodsExchange",
+    "column": "CreateDate",
+    "type": "DATETIME",
+    "nullable": false,
+    "stats": {
+      "total_count": 108425,
+      "non_null_count": 108425,
+      "min_date": "2025-09-20T16:37:06.057000",
+      "max_date": "2025-11-17T23:00:05.450000",
+      "null_percentage": 0.0
+    },
+    "description": "تاریخ و زمان ایجاد رکورد مبادله",
+    "data_quality": "محدوده تاریخ از ۲۰ سپتامبر ۲۰۲۵ تا ۱۷ نوامبر ۲۰۲۵، هیچ مقدار خالی وجود ندارد."
+  }
+]
